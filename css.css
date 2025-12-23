@@ -229,6 +229,25 @@ body{
     width: auto;
     border-radius: 20px;
 }
+/* Service item spacing */
+.item h3 {
+    margin-bottom: 12px;   /* space between title and list */
+}
+
+.item ul {
+    padding-left: 18px;    /* clean bullet alignment */
+    margin: 0;
+}
+
+.item ul li {
+    margin-bottom: 10px;   /* equal space between 3 points */
+    line-height: 1.6;
+}
+
+/* Remove extra space after last point */
+.item ul li:last-child {
+    margin-bottom: 0;
+}
 
 /*===================================================== reviews ===========================================================================*/
 
@@ -423,4 +442,5 @@ input::placeholder, textarea::placeholder {
   
 .zoomanimation {
     animation: bigzoom 0.5s ease-in-out;
+
 }
